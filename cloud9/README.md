@@ -6,7 +6,7 @@
 # main.tf
 
 module "cloud9" {
-  source = "../../modules/cloud9"
+  source = "github.com/johnnyrockets/terraform-modules//cloud9"  # Append ?ref=v1.0.0 (tag) to ping a version
 
   name      = "Cloud9InstanceName"
   region    = var.region
@@ -25,4 +25,3 @@ output "cloud9_url" {
   description = "The url of the cloud9 instance"
 }
 ```
-
