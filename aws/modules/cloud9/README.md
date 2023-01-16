@@ -9,9 +9,9 @@ module "cloud9" {
   source = "github.com/johnnyrockets/terraform-modules//cloud9"  # Append ?ref=v1.0.0 (tag) to ping a version
 
   name      = "Cloud9InstanceName"
-  region    = var.region
   subnet_id = "some-subnet"
   iam_user  = "arn:aws:iam::123456789012:user/someuser"
+  description = "Some description"
 }
 ```
 
