@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/johnnyrockets/terraform-modules/compare/v1.0.1...v2.0.0) (2023-01-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* refactor cloud9 module ([#4](https://github.com/johnnyrockets/terraform-modules/issues/4))
+
+### Features
+
+* refactor cloud9 module ([#4](https://github.com/johnnyrockets/terraform-modules/issues/4)) ([622136a](https://github.com/johnnyrockets/terraform-modules/commit/622136aff1ee228848c6ab7c53478294b1eabf9d))
+
 ## [1.0.1](https://github.com/johnnyrockets/terraform-modules/compare/v1.0.0...v1.0.1) (2023-01-16)
 
 
